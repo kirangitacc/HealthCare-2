@@ -1,0 +1,118 @@
+/* Container for the entire viewer */
+.scan-viewer-container {
+  display: flex;
+  flex-direction: column;
+  border:5px solid lightsalmon;
+  padding: 20px;
+  max-height: 78vh; /* Adjust based on Header height */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Header section with title and search bar */
+.scan-viewer-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Search bar styling */
+.scan-search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Scrollable list of scan cards */
+.scan-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 10px;
+}
+
+/* Individual scan card */
+.scan-card {
+  display: flex;
+  gap: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.scan-thumb {
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.scan-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.scan-card button {
+  padding: 6px 12px;
+  font-size: 14px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scan-card a button {
+  background-color: #6c757d;
+  margin-left: 10px;
+}
+
+/* No records message */
+.no-scans {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-top: 40px;
+}
+
+/* Responsive styles for screens below 767px */
+@media screen and (max-width: 767px) {
+  .scan-viewer-container {
+    padding: 10px;
+  }
+
+  .scan-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .scan-thumb {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .scan-details {
+    width: 100%;
+  }
+
+  .scan-card button,
+  .scan-card a button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .scan-search-bar input {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

@@ -1,0 +1,56 @@
+.scan-upload-container {
+  padding: 20px;
+  background: #f7f7f7;
+  height:80vh;
+  border-radius:10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border:5px solid lightsalmon;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  overflow-y: scroll;
+}
+.scan-upload-card {
+  background: white;
+  padding: 20px;
+  padding-right:30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+.scan-upload-form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 500;
+}
+.scan-upload-form input,
+.scan-upload-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.scan-upload-form button {
+  margin-top: 18px;
+  padding: 10px 18px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.message {
+  margin-top: 16px;
+  color: green;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .scan-upload-container{
+    max-height:80vh;
+    padding:10px;
+  }
+  
+}
