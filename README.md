@@ -23,7 +23,7 @@ _All images are located in the `assets` folder._
 ![Login](assets/login.png)  
 
 ### Technician Scan Upload  
-![Scan Upload](assets/scan_uploadform.png)  
+![Scan Upload](assets/uploadform.png)  
 
 ### Dentist Scan Viewer  
 ![Scan Viewer](assets/view.png)  
