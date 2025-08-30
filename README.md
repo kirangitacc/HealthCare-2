@@ -22,17 +22,12 @@ _All images are located in the `assets` folder._
 ### Login Page  
 ![Login](assets/login.png)  
 
-### Register Page  
-![Register](assets/register.png)  
-
 ### Technician Scan Upload  
-![Scan Upload](assets/scan_upload.png)  
+![Scan Upload](assets/scan_uploadform.png)  
 
 ### Dentist Scan Viewer  
-![Scan Viewer](assets/scan_viewer.png)  
+![Scan Viewer](assets/view.png)  
 
-### PDF Report Modal  
-![PDF Report](assets/pdf_report.png)  
 
 ### Profile Page  
 ![Profile](assets/profile.png)  
