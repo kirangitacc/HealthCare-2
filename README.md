@@ -3,6 +3,9 @@
 A full-stack web app for **dental scan management** with **role-based authentication**.  
 
 ---
+## deploy link
+
+https://health-care-2.vercel.app/
 
 ## ✨ Features  
 
